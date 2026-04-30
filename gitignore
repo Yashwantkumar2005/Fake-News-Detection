@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Dataset (large files - share via Kaggle link instead)
+*.csv
+dataset/
+
+# Environment
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
