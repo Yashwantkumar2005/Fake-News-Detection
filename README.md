@@ -1,16 +1,16 @@
-# 📰 Fake News Detection System
+# Fake News Detection System
 
 A comparative study of machine learning classifiers for fake news detection, with text preprocessing using **Stemming** and **Lemmatization**, and model optimization using **Hyperparameter Tuning (GridSearchCV)**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds and compares multiple ML classifiers to detect whether a news article is **real or fake**. It evaluates the effect of different NLP preprocessing techniques and hyperparameter tuning strategies on model performance.
 
 ---
 
-## 🧠 Models Compared
+## Models Compared
 
 | Model | Preprocessing | Hyperparameter Tuning |
 |---|---|---|
@@ -22,7 +22,7 @@ This project builds and compares multiple ML classifiers to detect whether a new
 
 ---
 
-## 🔧 NLP Preprocessing Pipeline
+## NLP Preprocessing Pipeline
 
 - Removed URLs, mentions, and special characters
 - Lowercased text
@@ -33,7 +33,7 @@ This project builds and compares multiple ML classifiers to detect whether a new
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - Accuracy, Precision, Recall, F1-Score
 - Confusion Matrix (heatmap)
@@ -41,7 +41,7 @@ This project builds and compares multiple ML classifiers to detect whether a new
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fake-news-detection/
@@ -55,7 +55,7 @@ fake-news-detection/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 This project uses the **Fake News dataset** from Kaggle:  
 🔗 [https://www.kaggle.com/c/fake-news/data](https://www.kaggle.com/c/fake-news/data)
@@ -69,7 +69,7 @@ Download `train.csv` and place it in the `/content/sample_data/` directory (if u
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1: Google Colab (Recommended)
 1. Open the `.ipynb` file in [Google Colab](https://colab.research.google.com/)
@@ -91,7 +91,7 @@ jupyter notebook
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 See `requirements.txt` for full list. Key libraries:
 
@@ -102,18 +102,12 @@ See `requirements.txt` for full list. Key libraries:
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 All models were evaluated on an 80/20 train-test split. ROC curves for all classifiers are plotted together to compare AUC scores visually.
 
 ---
 
-## 👥 Authors
-
-- [Your Name] — [Your Institution]
-
----
-
-## 📄 License
+## License
 
 This project is for academic/educational purposes.
