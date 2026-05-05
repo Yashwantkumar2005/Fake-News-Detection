@@ -63,12 +63,12 @@ This project uses a Fake News dataset with the following columns:
 - `title` — News article title
 - `label` — 0 = Real, 1 = Fake
 
-> ⚠️ The original Kaggle dataset (`kaggle.com/c/fake-news`) has been removed by the owner.
+> The original Kaggle dataset (`kaggle.com/c/fake-news`) has been removed by the owner.
 
 ### Alternative datasets with the same structure:
 
-- 🔗 [Fake and Real News Dataset – Clement Bisaillon](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
-- 🔗 [Fake News Detection Datasets](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
+- [Fake and Real News Dataset – Clement Bisaillon](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+-  [Fake News Detection Datasets](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets)
 
 Download `train.csv` and place it in the `/content/sample_data/` directory (if using Google Colab) or update the path in the notebook.
 
