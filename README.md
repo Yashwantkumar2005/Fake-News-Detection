@@ -105,5 +105,3 @@ See `requirements.txt` for full list. Key libraries:
 ## Results Summary
 
 All models were evaluated on an 80/20 train-test split. ROC curves for all classifiers are plotted together to compare AUC scores visually.
-
----
